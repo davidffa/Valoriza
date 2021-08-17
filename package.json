@@ -4,7 +4,8 @@
   "description": "API developed in NLW#6",
   "main": "index.js",
   "scripts": {
-    "dev": "tsnd --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+    "dev": "tsnd --transpile-only --ignore-watch node_modules --respawn src/server.ts",
+    "typeorm": "tsnd ./node_modules/typeorm/cli.js"
   },
   "repository": {
     "type": "git",
